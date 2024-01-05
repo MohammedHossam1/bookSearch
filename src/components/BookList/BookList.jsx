@@ -17,7 +17,7 @@ const BookList = () => {
       cover_img: singleBook.cover_id ? `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg` : coverImg
     }
   });
-// console.log(booksWithCovers)
+console.log(booksWithCovers)
   if(loading) return <Loading />;
 
   return (
