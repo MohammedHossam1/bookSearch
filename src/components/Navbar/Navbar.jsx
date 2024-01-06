@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./Navbar.css";
 import logoImg from "../../images/logo.png";
 import {HiOutlineMenuAlt3} from "react-icons/hi";
@@ -26,10 +26,10 @@ const Navbar = () => {
         <div className={toggleMenu ? "navbar-collapse show-navbar-collapse" : "navbar-collapse"}>
           <ul className = "navbar-nav">
             <li className='nav-item'>
-              <Link to = "book" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Home</Link>
+              <NavLink to = "book" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1 '>Home</NavLink>
             </li>
             <li className='nav-item'>
-              <Link to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>about</Link>
+              <NavLink to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>about</NavLink>
             </li>
           </ul>
         </div>

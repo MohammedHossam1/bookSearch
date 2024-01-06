@@ -40,7 +40,9 @@
 }
 .nav-link{
     transition: var(--transition);
+  padding: 8px;
 }
+
 .nav-link:hover{
     color: var(--purple-color);
 }
