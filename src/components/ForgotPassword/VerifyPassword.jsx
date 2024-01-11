@@ -38,16 +38,16 @@ setIsLoading(false)
   }//end send
   return (
     
-    <div className="login-container  w-100 top-0">
+    <div className="login-container">
     <form className="login-form">
-    <div className='container my-5'>
+    <div className=' '>
    {err!=null?
-    <div className="alert alert-danger">Code is invalid</div>: ''}
-    <h4 className="alert m-0 text-main">Reset code sent to your email</h4>
-    <input placeholder='Verify code..' ref={codeInput} name="forget" type="text" className="form-control my-3" />
-    {isLoading?<button className='btn text-white bg-main'>
-      <i className='fa-solid fa-spinner fa-spin'></i>
-    </button>:<button  className='btn bg-main text-white' onClick={()=>sendCodeNum()}>submit</button>}
+    <div className="">Code is invalid</div>: ''}
+    <h4 className="">* Reset code sent to your email</h4>
+    <input placeholder='Verify code..' ref={codeInput} name="forget" type="text" className="form-control forgotInput" />
+    {isLoading?<button className='btn '>
+      {/* <i className='fa-solid fa-spinner fa-spin'></i> */}
+    </button>:<button  className='btn ' onClick={()=>sendCodeNum()}>submit</button>}
     </div>
     </form>
   </div>

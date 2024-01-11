@@ -43,11 +43,9 @@ let navigate=useNavigate()
   return (
     <div className="login-container  w-100 top-0">
     <form className="login-form">
-    <div className="container my-5">
-        <label htmlFor="forget">Enter your email</label>
-      <input ref={emailInput} name="forget" type="text" className="form-control my-3" />
-      <button  className='btn bg-main text-white' onClick={sub}>sub</button>
-    </div>
+        <h4 htmlFor="forget">* Enter your email</h4>
+      <input ref={emailInput} name="forget" type="text" className="form-control forgotInput" placeholder="Your email.." />
+      <button  className='btn ' onClick={sub}>Send</button>
     </form>
   </div>
   
