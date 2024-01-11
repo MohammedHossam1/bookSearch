@@ -1,0 +1,182 @@
+.login-container {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   background-color: rgba(0, 0, 0, 0.562) ; 
+   position: absolute; 
+   top: 0;
+  width: 100% !important;
+  height: 100%;
+  z-index: 100;  
+
+}
+
+.form-control:focus {
+  outline: none; 
+  box-shadow: 0 0 0 0.2rem rgba(138, 43, 226, 0.25);
+  border: 1px solid purple;
+}
+.btn-primary {
+  background-color: purple; 
+  border-color: purple;
+  font-size: 18px; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3;
+}
+
+.form-label {
+  font-size: 16px;
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+.text-center {
+  font-size: 16px;
+}
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 0; 
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: purple;
+  border: 1px solid purple;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+
+.containerr input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.forgetpassword,.regester{
+  color: #007bff !important;
+}
+
+/* Hide the default checkbox */
+.containerr input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+ }
+ 
+ .containerr {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  margin-right: 10px;
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #ccc;
+  border-radius: 25px;
+  transition: 0.15s;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .containerr input:checked ~ .checkmark {
+  background-color: purple;
+  border-radius: 25px;
+  transition: 0.15s;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .containerr input:checked ~ .checkmark:after {
+  display: block;
+ }
+ 
+ /* Style the checkmark/indicator */
+ .containerr .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+ }
+.signup,.signin{
+  background-color: purple;
+  /* max-width: 50%; */
+  color: white;
+  margin: 10px auto;
+  text-align: center !important;
+}
